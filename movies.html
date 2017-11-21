@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Display Movie Information</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="movies.js"></script>
+	<style>
+		body {background-color: powderblue;}
+	
+		label {font-size: 30px;}
+	
+		div.container {width: 100%;border: 1px solid gray;}
+
+		nav {float: left;max-width: 300px;margin: 0;padding: 1em;}
+
+		nav ul {list-style-type: none;padding: 0;}
+   
+		nav ul a {text-decoration: none;}
+
+		ul {display: block;list-style-type: disc;margin-top: 1em;margin-bottom: 1em;
+			margin-left: 0;margin-right: 0;padding-left: 40px;
+			}
+		
+		li {color: red;margin-top: 5px;margin-bottom: 5px;}
+</style>
+  </head>
+  <body onload="initialize();">
+    <form>
+       <label>Movie title: <input type="text" id="form-input" /></label>
+       <input type="button" onclick="sendRequest();" value="Display Info"/>
+    </form>
+	<nav>
+  <ul>
+  </ul>
+</nav>
+	<img id="outputPoster" height="200" width="154" vspace="10" > 
+	<div id="outputTitle">&nbsp;</div>
+    <div id = "outputGener">&nbsp;</div>
+    <div id="outputOverview">&nbsp;</div>
+	<div id="outputCast">&nbsp;</div>
+  </body>
+</html>
