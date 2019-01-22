@@ -57,7 +57,6 @@
 	width: '90%',
 	marginLeft: '5%',
 	marginRight: '5%',
-	marginTop: '40%',
 	textAlign:'center',
 	justifyContent:'center'
 	},
