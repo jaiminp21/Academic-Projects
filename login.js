@@ -1,9 +1,9 @@
 (function main(React, ReactNative,NativeBase,componentState, StyleSheet, Dimensions, require) {
     'use strict';
 
-    //Object.defineProperty(exports, "__esModule", {
-    //    value: true
-    //});
+    Object.defineProperty(exports, "__esModule", {
+        value: true
+    });
 	
     var styles = StyleSheet.create({
 	containerStyle: {
