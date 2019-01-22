@@ -17,7 +17,9 @@
 	},
 	userNameItem: {
 	width: "90%",
-	margin: "5%",
+	marginLeft: "5%",
+	marginRight: "5%",
+	marginTop: "5%",
 	},
 	inputStyle: {
 	color: '#2B7B9F',
