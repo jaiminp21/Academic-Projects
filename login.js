@@ -51,7 +51,8 @@
 	},
 	loginButton: {
 	backgroundColor: '#4568DC',
-	margin: '5%',
+	marginTop: 5,
+	marginBottom: 5,
 	width: '90%',
 	textAlign:'center',
 	justifyContent:'center'
