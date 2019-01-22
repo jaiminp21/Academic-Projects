@@ -28,7 +28,6 @@
 	width: '100%',
 	height: 50,
 	borderWidth: 1,
-	//textTransform: 'none',
 	borderColor: '#ccc',
 	},
 	passwordItem: {
@@ -42,14 +41,14 @@
 	fontFamily: 'Arial',
 	fontWeight: 'bold',
 	marginBottom: 5,
-	fontSize: 16
+	fontSize: 22
 	},
 	userNameLabel: {
 	color: '#2B7B9F',
 	fontFamily: 'Arial',
 	fontWeight: 'bold',
 	marginBottom: '5%',
-	fontSize: 16
+	fontSize: 22
 	},
 	loginButton: {
 	backgroundColor: '#4568DC',
@@ -61,12 +60,12 @@
 	justifyContent:'center'
 	},
 	imageStyle: {
-	width: '100%',
-	height: 160,
+	width: '90%',
+	height: 180,
 	},
 	loginButtonLabel:{
 	color: '#FFFFFF',
-	fontSize: 18,
+	fontSize: 20,
 	fontFamily: 'Arial',
 	textAlign:'center',
 	justifyContent:'center'
