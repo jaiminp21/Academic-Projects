@@ -40,23 +40,19 @@
 	passwordlabel: {
 	color: '#2B7B9F',
 	fontFamily: 'Arial',
-	fontWeight: 'bold',
 	marginBottom: 5,
 	fontSize: 22
 	},
 	userNameLabel: {
 	color: '#2B7B9F',
 	fontFamily: 'Arial',
-	fontWeight: 'bold',
-	marginBottom: '5%',
+	marginBottom: 5,
 	fontSize: 22
 	},
 	loginButton: {
 	backgroundColor: '#4568DC',
-	marginTop: '3%',
+	margin: '5%',
 	width: '90%',
-	marginLeft: '5%',
-	marginRight: '5%',
 	textAlign:'center',
 	justifyContent:'center'
 	},
