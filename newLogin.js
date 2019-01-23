@@ -108,7 +108,7 @@
             
             if (result != null) {
                 //console.warn(result);
-                hideLoading();
+                hideLoading(localState);
                 //const { navigate } = this.props.navigation;
                 navigate('AccountSummary');
             } else {
