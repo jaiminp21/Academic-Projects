@@ -123,7 +123,9 @@
                         "password": localState.state.password
                     })
                 ).then(function(loginresult){
-
+                     
+                    console.warn(loginresult);
+                    
                     if (loginresult == '' || loginresult == undefined) {
                         _nativebase.Toast.show({
                             text: 'Please enter the valid UserName and Password',
