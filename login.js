@@ -51,8 +51,8 @@
 	},
 	loginButton: {
 	backgroundColor: '#4568DC',
-	marginTop: 5,
-	marginBottom: 5,
+	marginTop: '5%',
+	marginBottom: '5%',
 	marginLeft: '5%',
 	marginRight: '5%',
 	width: '90%',
